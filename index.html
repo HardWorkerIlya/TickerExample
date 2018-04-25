@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+    <div class="input_block">
+        <div class="input_block_group">
+            <input type="text" id="input_ticker_value" class="input" placeholder="Введите текст">
+        </div>
+        <div class="input_block_group">
+            <button id="ticker_speed_down">-</button>
+            <input type="number" id="input_ticker_speed_value">
+            <button id="ticker_speed_up">+</button>
+        </div>
+        <div class="input_block_group">
+            <input id="cyclicity_value" type="checkbox" class="check" checked>
+            <label for="cyclicity_value"><span class="icon"></span> Циклично?</label>
+        </div>
+        <div class="input_block_group">
+            <button id="add_ticker_value" class="button">Добавить</button>
+        </div>
+    </div>
+    <div id="ticker">
+        <span></span>
+    </div>
+    </body>
+</html>
